@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>health_calc_pack_dotnet-nrs</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Health Calc</Title>
+    <Description>Biblioteca para cálculos de saúde (IMC e Macronutrientes)</Description>
+    <RepositoryUrl>https://github.com/nathaliarezende/health-calc-pack-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>health-calc.png</PackageIcon>
+    <PackageId>health-calc-pack-dotnet-nrs</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Users\natha\Downloads\health-calc.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
